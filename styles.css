@@ -8,12 +8,18 @@ DARK BLUE: #1D3557
 
 */
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 body {
     margin: 0;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    line-height: 2;
+    background: url(https://images.unsplash.com/photo-1632961965821-999763254f10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3027&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 img {
@@ -22,38 +28,39 @@ img {
     height: 7em;
 }
 #cover-pic {
-    background-image: url("https://media.giphy.com/media/3o6ZtluYTKJeXXqt8s/giphy.gif");
+    background-image: url("images/cover1.gif");
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 500px;
     color: #fff;
     text-shadow: 0 0 1px black;
     margin: 0;
 }
 .title {
-    background-color: #1d3557;
+    opacity: 0.8;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 9px 14px;
     margin: 0;
-    margin-bottom: 10px;
+    /* font-size: 2em; */
+    background-color: #0d2149;
 }
 .subtitle {
-    background: #457b9d;
     border-radius: 10px;
     width: 500px;
     padding: 5px 10px;
     margin: 0;
 }
-#activity {
-    background: #f1faee;
+/* #activity {
     margin: 0;
     padding-top: 1em;
-}
+} */
 .activity-title {
-    color: #1d3557;
+    color: #0d2149;
+    color: white;
+    padding: 3em;
 }
 .activityName {
     width: 500px;
@@ -64,12 +71,11 @@ img {
     flex-direction: row;
 }
 #guide {
-    width: 500px;
-    margin: 2em auto;
-    background: #a8dadc;
-    box-shadow: 0px 6px 0px #1d3557;
-    border-radius: 10px;
+    /* margin: 2em auto; */
+    box-shadow: 6px 6px 6px #1d3557;
+    /* border-radius: 10px; */
     display: flex;
+    background: #0d2149ad;
 }
 #cover-img {
     width: 200px;
