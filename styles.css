@@ -83,7 +83,7 @@ img {
     box-shadow: 6px 6px 6px #1d3557;
     /* border-radius: 10px; */
     display: flex;
-    background: #0d2149ad;
+    background-color: #0d2149ad;
 }
 #cover-img {
     width: 200px;
