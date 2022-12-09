@@ -62,6 +62,14 @@ img {
     color: white;
     padding: 3em;
 }
+@media screen and (max-width: 600px) {
+    .activity-title {
+        padding: 2em;
+    }
+    body {
+        line-height: 1.5;
+    }
+}
 .activityName {
     width: 500px;
     margin: 2em;
